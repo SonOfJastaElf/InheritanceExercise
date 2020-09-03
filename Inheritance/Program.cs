@@ -6,34 +6,26 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
-            // TODO Be sure to follow best practice when creating your classes
+            var heron = new Bird();
 
-            // Create a class Animal
-            // give this class 4 members that all Animals have in common
+            heron.ActiveTime = "Day";
+            heron.Diet = "Fish";
+            heron.Environment = "Marshes";
+            heron.Wingspan = 65.93;
+            heron.FeatherColor = "Blue";
+            heron.DoesItFly = true;
+            heron.Noise = "Honk";
 
+            var copperhead = new Reptile();
 
-            // Create a class Bird
-            // give this class 4 members that are specific to Bird
-            // Set this class to inherit from your Animal Class
-
-            // Create a class Reptile
-            // give this class 4 members that are specific to Reptile
-            // Set this class to inherit from your Animal Class
-
-
-
-
-            /*Create an object of your Bird class
-             *  give values to your members using the object of your Bird class
-             *  
-             * Creatively display the class member values 
-             */
-
-            /*Create an object of your Reptile class
-             *  give values to your members using the object of your Bird class
-             *  
-             * Creatively display the class member values 
-             */
+            copperhead.Skin = "Scaly";
+            copperhead.ActiveTime = "Night";
+            copperhead.Diet = "Rodents";
+            copperhead.Environment = "Woods";
+            copperhead.IsVenomous = true;
+            copperhead.HasLegs = false;
+            copperhead.ScaleColor = "Copper";
+            copperhead.RegrowsItsTail = false;
         }
     }
 }
