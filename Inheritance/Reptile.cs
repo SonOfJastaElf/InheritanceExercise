@@ -13,6 +13,6 @@ namespace Inheritance
         public bool IsVenomous { get; set; }
         public bool HasLegs { get; set; }
         public string ScaleColor { get; set; }
-        public bool RegrowsItsTail { get; set; }
+        public bool HasScales { get; set; }
     }
 }
